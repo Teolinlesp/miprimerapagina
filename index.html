@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi Primer Website</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+        p {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container-nav" role="navigation">
+        <nav class="navbar">
+          <a href="index.html" class="brand">Mi página web</a>
+          <ul class="nav-links">
+            <li><a href="mi-primer-website.html">INICIO</a></li>
+            <li><a href="nosotros.html">NOSOTROS</a></li>
+            <li><a href="servicios.html">SERVICIOS</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+          </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </header>
+    <main>
+        <!-- Contenido principal -->
+        <div class="container">
+            
+            <h1>Bienvenidos a mi primer Website!</h1>
+            <section>
+                <h2 id="Presentación">Acerca de mi:</h2>
+                <p>Soy <strong>Teolinlés; alias Teo</strong>, ¡y esta es mi primera página web!</p>
+                <p style = "color: red"> Estoy aprendiendo desarrollo web para crear sitios web visualmente
+                atrapantes y funcionales.</p>
+            </section>
+            <section>
+                <h2>Lo que se viene...</h2>
+                <p>
+                A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web front-end.
+                </p>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qWcwFMAqpME" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+                    web-share" allowfullscreen></iframe>
+                </div>
+                
+            </section>
+            
+            <h2>Este viaje de aprendizaje lo realizamos en:</h2>
+
+            <img src="img/cohete.png" alt="Una imagen de ejemplo" height="250" width="250"/>
+            <img src="img/logo.png" alt="Una imagen de ejemplo" height="200" width="350"/>
+        </div>
+        
+    </main>
+    <footer>
+        <!-- Contenido del pie de página -->
+        <p>Este será el footer de mi página web, colocamos información del desarrollador o de la compañía</p>
+        <button onclick="showAlert()">¡Haz clic en mi!</button>
+        <button id="boton1">botón prueba</button>
+      </footer>
+</body>
+<script src="/js/script.js"> </script>
+
+</html>
